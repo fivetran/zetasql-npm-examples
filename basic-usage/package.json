@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "compile": "tsc -b"
+  },
   "devDependencies": {
     "typescript": "^4.5.4"
   },

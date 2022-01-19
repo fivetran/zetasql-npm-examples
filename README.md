@@ -10,11 +10,7 @@ This repo contains examples of usage of [zetasql-npm](https://www.npmjs.com/pack
 ## Compile project
 
 ```sh
-> npx tsc
-```
-or
-```sh
-> node ./node_modules/typescript/bin/tsc
+> npm run compile
 ```
 
 ## Run project
