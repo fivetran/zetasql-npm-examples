@@ -121,11 +121,11 @@ async function testAnalyzeRequest(sqlStatement: string) {
     console.log('There was an error wile parsing SQL query');
     if (e.code === 3) {
       const matchResults = e.details.match(/(.*?) \[at (\d+):(\d+)\]/);
-      const lineInCompiledDoc = matchResults[2] - 1;
-      const characterInCompiledDoc = matchResults[3] - 1;
+      const line = matchResults[2] - 1;
+      const character = matchResults[3] - 1;
 
-      console.log(`Line: ${lineInCompiledDoc}`);
-      console.log(`Character: ${characterInCompiledDoc}`);
+      console.log(`Line: ${line}`);
+      console.log(`Character: ${character}`);
       console.log(`Message: ${matchResults[1]}`);
     }
   }
