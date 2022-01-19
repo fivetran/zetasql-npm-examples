@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "typescript": "^4.5.4"
+  },
+  "dependencies": {
+    "@fivetrandevelopers/zetasql": "^1.1.2"
+  }
+}
