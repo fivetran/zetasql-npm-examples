@@ -12,6 +12,10 @@ This repo contains examples of usage of [zetasql-npm](https://www.npmjs.com/pack
 ```sh
 > npx tsc
 ```
+or
+```sh
+> node ./node_modules/typescript/bin/tsc
+```
 
 ## Run project
 
