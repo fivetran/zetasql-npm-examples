@@ -15,9 +15,8 @@ This repo contains examples of usage of [zetasql-npm](https://www.npmjs.com/pack
 
 ## Run project
 
-For macos:
 ```sh
-> node ./out/index.js 
+> node ./out/index.js
 ```
 
 ## License
