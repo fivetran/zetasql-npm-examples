@@ -1,4 +1,4 @@
-### Start server
+# Start server
 
 ```typescript
 const ZETA_SQL_PORT = 50005;
@@ -10,7 +10,7 @@ ZetaSQLClient.init(ZETA_SQL_PORT);
 zetaSQLClient = await ZetaSQLClient.getInstance();
 ```
 
-### Enable Language Features
+# Enable Language Features
 
 ```typescript
 const catalog = new SimpleCatalog('catalog');
@@ -19,7 +19,7 @@ const languageOptions = await new LanguageOptions().enableMaximumLanguageFeature
 await catalog.addZetaSQLFunctions(new ZetaSQLBuiltinFunctionOptions(languageOptions));
 ```
 
-### Register tables
+# Register tables
 
 ```typescript
 ...
@@ -36,13 +36,13 @@ const simpleColumn = new SimpleColumn('<todo: table name>', '<todo: column name>
 simpleTable.addSimpleColumn(simpleColumn);
 ```
 
-### Register catalog
+# Register catalog
 
 ```typescript
 await catalog.register();
 ```
 
-### Retrieve table names from SQL statement
+# Retrieve table names from SQL statement
 
 ```typescript
 try {
@@ -55,7 +55,7 @@ try {
 }
 ```
 
-### Analyze request
+# Analyze request
 
 ```typescript
 const analyzeRequest: AnalyzeRequest = {
