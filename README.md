@@ -4,17 +4,17 @@ This repo contains examples of usage of [zetasql-npm](https://www.npmjs.com/pack
 ## Install dependencies
 
 ```sh
-> npm i
+npm i
 ```
 
 ## Compile project
 
 ```sh
-> npm run compile
+npm run compile
 ```
 
 ## Run project
 
 ```sh
-> node ./out/index.js
+node ./out/index.js
 ```
