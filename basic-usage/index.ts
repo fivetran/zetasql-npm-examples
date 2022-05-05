@@ -95,7 +95,7 @@ async function testTableNamesExtraction() {
 
   try {
     const extractResult = await zetaSQLClient.extractTableNamesFromStatement(request);
-    console.log(extractResult.tableName);
+    console.log(extractResult?.tableName);
   } catch (e) {
     console.log(e);
   }
@@ -109,7 +109,7 @@ async function testAnalyzeRequest(sqlStatement: string) {
     options: {
       parseLocationRecordType: ParseLocationRecordType.PARSE_LOCATION_RECORD_CODE_SEARCH,
       errorMessageMode: ErrorMessageMode.ERROR_MESSAGE_ONE_LINE,
-      languageOptions: catalog.builtinFunctionOptions.languageOptions,
+      languageOptions: catalog.builtinFunctionOptions?.languageOptions,
     },
   };
     

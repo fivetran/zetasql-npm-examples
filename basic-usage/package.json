@@ -6,6 +6,6 @@
     "typescript": "^4.5.4"
   },
   "dependencies": {
-    "@fivetrandevelopers/zetasql": "^1.1.2"
+    "@fivetrandevelopers/zetasql": "^1.2.8"
   }
 }
